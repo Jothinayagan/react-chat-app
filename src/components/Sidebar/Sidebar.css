@@ -50,6 +50,7 @@
     margin-left: 5px;
     width: 100%;
     height: 80%;
+    outline: none;
 }
 
 .sidebar_chats {
