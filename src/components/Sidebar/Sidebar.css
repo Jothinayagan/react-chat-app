@@ -7,7 +7,7 @@
 .sidebar_header {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px 5px 2.5px 15px;
     border-right: 1px solid lightgray;
 }
 
