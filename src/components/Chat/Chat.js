@@ -41,8 +41,8 @@ function Chat() {
         </p>
 
         <p className="chat_message chat_reciever">
-          <span className="chat_name">Jothinayagan 😻</span>
-          This is a first message! 😋
+          <span className="chat_name">Shri Har Balaji</span>
+          This is a second message! 😋
           <span className="chat_timestamp">
             {moment().format("DD/MM/YY hh:mm A")}
           </span>
@@ -50,12 +50,16 @@ function Chat() {
       </div>
 
       <div className="chat_footer">
-        <InsertEmoticon />
+        <IconButton>
+          <InsertEmoticon />
+        </IconButton>
         <form>
           <input placeholder="Type a message" type="text" />
           <button type="submit">Send a message</button>
         </form>
-        <MicIcon />
+        <IconButton>
+          <MicIcon />
+        </IconButton>
       </div>
     </div>
   );
